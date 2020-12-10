@@ -1,0 +1,52 @@
+body {
+    font-family: 'Vollkorn', serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background:
+    linear-gradient(
+        rgba(51, 48, 48, 0.75),
+        rgba(51, 48, 48, 0.75)
+    ),
+    url('../img/pt.jpg') no-repeat;/* фон на цілий екран */
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    color: white;
+    align-items: center;
+}
+
+.btn-log {
+  position: static;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: -1px -1px #000;
+  user-select: none;
+  padding: .8em 1em;
+  background: #200122;
+  background: -webkit-linear-gradient(to right, #6f0000, #200122);
+  background: linear-gradient(to right, #6f0000, #200122);
+  background-repeat: no-repeat;
+  background-size: 200% 100%, auto;
+  background-position: 200% 0, 0 0;
+  box-shadow: rgba(0,0,0,.3) 0 2px 5px;
+  cursor: pointer;
+}
+
+.btn-log:active{
+  top: 1px;
+}
+
+.btn-log:hover{
+  transition: .5s linear;
+  background-position: -200% 0, 0 0;
+}
+
+.form a{
+  color: white;
+}
