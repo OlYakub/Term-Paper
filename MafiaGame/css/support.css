@@ -24,9 +24,9 @@ body {
     background-size: 100%;
 }
 
-.mainSection .authNav { /* розташування кнопки реєстрація(?розмір) НЕ ЧІПАТИ */
+.mainSection .authNav { 
     padding: 15px 0;
-    align-self: normal; /* кнопки переїхали */
+    align-self: normal; 
 }
 
 .mainSection .authNav .menu {
@@ -56,18 +56,18 @@ body {
     box-shadow: rgba(0,0,0,.3) 0 2px 5px;
 }
 
-.menuItem .menu :active { /* дизайн кнопки реєстрація */
+.menuItem .menu :active { 
   top: 1px;
   box-shadow: none;
 }
 
-.mainSection .authNav .menu .menuItem:hover { /* дизайн кнопки реєстрація */
+.mainSection .authNav .menu .menuItem:hover { 
   transition: .5s linear;
   background-position: -200% 0, 0 0;
 
 }
 
-.menuItem a { /* текст кнопки реєстрація */
+.menuItem a { 
     text-decoration: none;
     color: #ffffff;
 }
